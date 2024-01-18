@@ -1,5 +1,6 @@
 import { text } from "./text.js";
 import { randomIndex } from "./createElement.js";
+import { mistake } from "../main.js";
 
 
 export function countWords(index) {
