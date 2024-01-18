@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Improve your keyboard typing skills with our interactive typing practice website. Track your speed, accuracy, and progress. Start typing now!">
+
+    <!-- favicon  -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/android-chrome-192x192.png" type="image/png">
+    <link rel="icon" href="./assets/android-chrome-512x512.png" type="image/png">
+
+    
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Typer - Typing speed</title>
+
+     <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dinesheth.github.io/Typer">
+    <meta property="og:title" content="Keyboard Typing Practice">
+    <meta property="og:description" content="Enhance your typing speed and accuracy with our interactive keyboard typing practice. Track your progress and see improvements over time.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="typing_speed_tool">
+    <meta property="twitter:url" content="https://dinesheth.github.io/Typer">
+    <meta property="twitter:title" content="Keyboard Typing Practice">
+    <meta property="twitter:description" content="Enhance your typing speed and accuracy with our interactive keyboard typing practice. Track your progress and see improvements over time.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Other Meta Tags (optional) -->
+    <meta name="keywords" content="typing practice, keyboard skills, typing speed, improve typing, check typing, ">
+    <meta name="author" content="Dinesh Prajapati">
+
+</head>
+<body>
+    <div class="hidden">Open this website in  a Laptop or a computer to practice well</div>
+    <header class="header">
+        <!-- *********NAVBAR********** -->
+        <nav class="header__nav">
+            <div class="allowed logo">
+                <img width="40" src="./assets/keyboard.png" alt="">
+                <span class="title nav-text">Typer</span>
+            </div>
+            <ul class="nav__list">
+                <li class="allowed">
+                    <a href="https://github.com/dineshEth/Typer" class="desc nav-text">Docs</a>
+                </li>
+                <li class="allowed">
+                    <a href="#author" class="desc nav-text">Author</a>
+                </li>
+                <li class="not--allowed" >
+                    <a class="not--allowed desc nav-text">Blog</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- **********TITLE AND ABOUT********* -->
+        <p class="title title--large">Typer</p>
+        <p class="desc desc--highlight">Excel your <span style="color: #0b79e1;">Typing Speed</span> with Typer
+        </p>
+    </header>
+    <!-- ******************MAIN**************** -->
+    <main class="main">
+        <div class="buttons">
+            <button class="button btn-active" id="start">Start</button>
+            <button class="button btn-disabled" id="stop" disabled>Wait</button>
+        </div>
+        <!-- *******TEXTBOX********* -->
+        <div class="text" id="textContainer">
+        </div>
+        <!-- *********PERFORMANCE******* -->
+        <div class="performance" id="performance">   
+        </div>
+    </main>
+    <!-- ****************AUTHOR BOX*********** -->
+    <section id="author">
+        <div class="author__img">
+            <img src="./assets/ReadyPlayerMe-Avatar.png" alt="avatar">
+        </div>
+        <div class="author__about">
+            Dinesh Prajapati, a dedicated frontend engineer and computer science student pursuing B.Tech. Passionate about crafting intuitive UIs, his expertise lies in creating seamless user experiences. Beyond coding, Dinesh excels in business-technology discussions, showcasing a holistic approach to software development and a commitment to driving innovation at the intersection of technology and business.
+        </div>
+    </section>
+    <!-- ************FOOTER*********** -->
+    <footer>
+        <p>Follow <span>&#9829;</span></p>
+        <ul class="social_connections">
+            <li><a href="http://www.github.com/dineshEth">Github</a></li>
+            <li><a href="http://www.twitter.com/dinesh_eth">Twitter</a></li>
+            <li><a href="http://https://www.linkedin.com/in/dinesh-prajapati-26b1a7216/">Linkedn</a></li>
+            <!-- <li><a href="http://">Discord</a></li> -->
+            <li><a href="http://www.instagram.com/cs_dinezh">Instagram</a></li>
+            <!-- <li><a href="http://">Youtube</a></li> -->
+            <!-- <li><a href="http://">Reddit</a></li> -->
+        </ul>
+        <p>Copyright 2024</p>
+    </footer>
+</body>
+<!-- <script type="" src="./utils/counter.js"></script> -->
+<script type="module" src="./main.js"></script>
+</html>
